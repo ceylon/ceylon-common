@@ -3,7 +3,9 @@ package com.redhat.ceylon.common;
 public enum Backend {
     None(""),
     Java("jvm"),
-    JavaScript("js");
+    JavaScript("js"),
+    Dart("dart"),
+    LLVM("llvm");
     
     public final String nativeAnnotation;
     
